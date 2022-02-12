@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.todo{
+    color: rgb(13, 241, 63);
+    text-transform: uppercase;
+}
+
+h1 {
+	color: rgb(253, 232, 232);
+    font-family: 'Dancing Script', cursive;
+	font-size: 5rem;
+	font-weight: 70;
+	text-align: center;
+	margin: 3rem 3rem; 
+}
+
+
+.input1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Text{
+    height: 50px;
+    width: 400px;
+    margin: 0.25rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+#add{
+    height: 50px;
+    width: 50px;
+    margin: 0.25rem;
+    background-color: white;
+    color: rgb(23, 1, 36);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#add:hover{
+	opacity: 0.9;
+}
+
+.list{
+	display: flex;
+	justify-content: center;
+	margin-top: 2.5rem;
+}
+
+.item{
+	width: 300px;
+	background-color: rgb(171, 240, 169);
+	color: rgb(0, 0, 0);
+	font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+.crossBtn{
+    height: 50px;
+    width: 60px;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    background-color: rgb(8, 39, 21);
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.delButton{
+	height: 50px;
+    width: 60px;
+    border-radius: 15px;
+    margin-left: 0.5rem;
+    background-color: rgb(8, 39, 21);
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+    transition: .5s;
+}
+
